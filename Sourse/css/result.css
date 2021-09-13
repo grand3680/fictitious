@@ -1,0 +1,16 @@
+#result {
+    text-align: center;
+}
+
+#result_txt {
+    font-size: 100px;
+    color: white;
+}
+
+#result_text {
+    margin-top: 50px;
+    padding: 15px;
+    font-size: 80px;
+    color: white;
+    opacity: 0.6;
+}

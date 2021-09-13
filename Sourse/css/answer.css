@@ -1,0 +1,115 @@
+.answer__txt::after {
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    content: " ";
+    background: url(../../images/галочка.png);
+}
+
+.answer__txt {
+    text-align: start;
+    font-size: 30px;
+    font-weight: 900;
+    color: #FFFDFE;
+}
+
+#Fictions {
+    justify-content: center;
+    display: flex;
+    padding-top: 50px;
+}
+
+
+/* пока не работает ↓*/
+
+@media (min-width: 650px) {
+    #question_1 {
+        background-color: #444444;
+        min-width: 900px;
+        min-height: 800px;
+        border-radius: 40%;
+    }
+}
+
+
+/* пока не работает ↑*/
+
+.answers {
+    display: flex;
+    justify-content: center;
+}
+
+div .answers button {
+    transition: transform 0.1s;
+    cursor: pointer;
+    margin: 50px 60px;
+    min-width: 300px;
+    min-height: 100px;
+    border-radius: 10px;
+    background-color: #888888;
+    border: none;
+    box-shadow: 20px 30px 50px 3px #343434;
+}
+
+
+/* пока не работает ↓*/
+
+@media (max-width: 650px) {
+    div .answers {
+        display: block;
+        padding: 0px;
+        margin: -50px 0px 0px 0px;
+    }
+    div .answers button {
+        min-width: 600px;
+        min-height: 150px;
+    }
+    div .answer__txt {
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 300px) {
+    div .answers button {
+        min-height: 300px;
+        text-align: start;
+        margin-top: 100px;
+    }
+    div .answer__txt {
+        font-size: 150px;
+    }
+}
+
+
+/* пока не работает ↑*/
+
+div .answers button:hover {
+    transform: scale(1.2);
+}
+
+.answer__txt_4::before,
+.answer__txt_3::before,
+.answer__txt_2::before,
+.answer__txt_1::before {
+    margin: 0px 10px;
+}
+
+.answer__txt_1::before {
+    content: "1.";
+    margin: 0px 10px;
+}
+
+.answer__txt_2::before {
+    content: "2.";
+    margin: 0px 10px;
+}
+
+.answer__txt_3::before {
+    content: "3.";
+    margin: 0px 10px;
+}
+
+.answer__txt_4::before {
+    content: "4.";
+    margin: 0px 10px;
+}

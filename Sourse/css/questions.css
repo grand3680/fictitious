@@ -1,0 +1,27 @@
+.question__title h2 {
+    color: white;
+    font-size: 50px;
+}
+
+.question__title {
+    justify-content: center;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+@media (max-width: 650px) {
+    .question__title {
+        margin-top: 10px;
+        margin-bottom: 50px;
+    }
+    .question__title h2 {
+        font-size: 80px;
+    }
+}
+
+@media (max-width: 300px) {
+    .question__title h2 {
+        font-size: 100px;
+    }
+}
